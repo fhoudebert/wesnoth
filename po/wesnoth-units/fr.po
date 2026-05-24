@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: Wesnoth_Units-1.16.6\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2026-05-19 02:15 UTC\n"
-"PO-Revision-Date: 2024-02-13 18:32+0100\n"
+"PO-Revision-Date: 2026-05-24 11:01+0200\n"
 "Last-Translator: alberic89 <alberic89@gmx.com>\n"
 "Language-Team: French <wesnothfr@lists.tuxfamily.org>\n"
 "Language: fr\n"
@@ -1409,8 +1409,9 @@ msgstr "Pluie de flèches"
 
 #. [effect]: type=pierce
 #: data/campaigns/Under_the_Burning_Suns/units/quenoth/Youth.cfg:579
+#, fuzzy
 msgid "Snipe"
-msgstr ""
+msgstr "tir de précision"
 
 #. [unit_type]: id=Blood Bat, race=bats
 #: data/core/units/bats/Bat_Blood.cfg:4
@@ -1471,20 +1472,18 @@ msgstr ""
 
 #. [unit_type]: id=Canoe, race=ship
 #: data/core/units/boats/Canoe.cfg:5
-#, fuzzy
 msgid "Canoe"
-msgstr "Canoë"
+msgstr "Pirogue"
 
 #. [unit_type]: id=Canoe, race=ship
 #: data/core/units/boats/Canoe.cfg:34
-#, fuzzy
 msgid ""
 "A Canoe is a small, open-top water vessel commonly used for transportation "
 "or hunting. Their light-weight construction allows them to be carried around "
 "barriers or between unconnected bodies of water. Almost every intelligent "
 "race has some form of Canoe."
 msgstr ""
-"Un canoë est une petite embarcation ouverte, couramment utilisée pour le "
+"Une pirogue est une petite embarcation ouverte, couramment utilisée pour le "
 "transport ou la chasse. Sa construction légère permet de le porter au-delà "
 "des rapides, des berges escarpées ou d’un cours d’eau à l’autre. Presque "
 "toutes les races intelligentes possèdent une forme quelconque de canoë."
@@ -1565,8 +1564,9 @@ msgstr ""
 #: data/core/units/boats/Elf_Cutter.cfg:43
 #: data/core/units/boats/Elf_Sloop.cfg:35
 #: data/core/units/boats/Elf_Sloop.cfg:44
+#, fuzzy
 msgid "marksmen"
-msgstr ""
+msgstr "archers d’élite"
 
 #. [unit_type]: id=Elvish Sloop, race=ship
 #: data/core/units/boats/Elf_Sloop.cfg:5
@@ -1592,7 +1592,7 @@ msgstr ""
 #: data/core/units/boats/Fireship.cfg:4
 #, fuzzy
 msgid "Fireship"
-msgstr "Brûlots"
+msgstr "Brûlot"
 
 #. [unit_type]: id=Fireship, race=ship
 #: data/core/units/boats/Fireship.cfg:21
@@ -1611,15 +1611,19 @@ msgstr ""
 
 #. [dummy]: id=deteriorate
 #: data/core/units/boats/Fireship.cfg:26
+#, fuzzy
 msgid "deteriorate"
-msgstr ""
+msgstr "délitement"
 
 #. [dummy]: id=deteriorate
 #: data/core/units/boats/Fireship.cfg:27
+#, fuzzy
 msgid ""
 "This unit is deteriorating. It cannot be healed, and loses 10 hitpoints at "
 "the start of each of its turns."
 msgstr ""
+"Cette unité se délite. Elle ne peut pas être soignée et perd 10 points de "
+"vie au début de chacun de ses tours."
 
 #. [unit_type]: id=Ghost Ship, race=ship
 #: data/core/units/boats/Ghost_Ship.cfg:16
@@ -1637,8 +1641,9 @@ msgstr "foudre"
 
 #. [attack]: type=cold
 #: data/core/units/boats/Ghost_Ship.cfg:59
+#, fuzzy
 msgid "lost souls"
-msgstr ""
+msgstr "âmes perdues"
 
 #. [unit_type]: id=Boat, race=mechanical
 #: data/core/units/boats/Legacy_Boat.cfg:7
@@ -1795,8 +1800,9 @@ msgstr ""
 
 #. [attack]: type=impact
 #: data/core/units/boats/Orc_Battle-Barge.cfg:45
+#, fuzzy
 msgid "catapult"
-msgstr ""
+msgstr "catapulte"
 
 #. [unit_type]: id=Orcish Rigship, race=ship
 #: data/core/units/boats/Orc_Rigship.cfg:5
@@ -1880,12 +1886,12 @@ msgstr ""
 #. [unit_type]: id=Coastal Raider, race=ship
 #: data/core/units/boats/Raider_Coastal.cfg:4
 #, fuzzy
-#| msgid "Wolf Rider"
 msgid "Coastal Raider"
-msgstr "Monteur de loup"
+msgstr "Forban côtier"
 
 #. [unit_type]: id=Coastal Raider, race=ship
 #: data/core/units/boats/Raider_Coastal.cfg:25
+#, fuzzy
 msgid ""
 "While Carracks and Cogs rely on impressive sails to harness the power of the "
 "wind, galleys and raiders are propelled by muscle-power of the crew manning "
@@ -1899,16 +1905,29 @@ msgid ""
 "not possess any specific armaments, but oared propulsion makes the vessel "
 "much more maneuverable when ramming or beaching."
 msgstr ""
+"Là où les caraques et les cogues déploient d’imposantes voiles pour capter "
+"la puissance des vents, les galères et les navires corsaires avancent grâce "
+"à la seule force des bras de leurs rameurs. Certes, cela exige un équipage "
+"plus nombreux et limite quelque peu la vitesse ainsi que le rendement du "
+"transport. Pourtant, ces faiblesses apparentes rendent aussi le bâtiment "
+"moins dépendant des caprices des tempêtes et moins vulnérable aux forbans.\n"
+"\n"
+"Les navires corsaires côtiers sont de modestes bâtiments de guerre, "
+"renforcés contre l’éperonnage et conçus pour acheminer rapidement des "
+"troupes armées à travers les hauts-fonds et les rivages côtiers. Ils ne "
+"disposent d’aucun armement particulier, mais leur propulsion à rames leur "
+"confère une grande manœuvrabilité lors des abordages, des éperonnages ou des "
+"échouages."
 
 #. [unit_type]: id=Iron Raider, race=ship
 #: data/core/units/boats/Raider_Iron.cfg:4
 #, fuzzy
-#| msgid "Gryphon Rider"
 msgid "Iron Raider"
-msgstr "Monteur de griffon"
+msgstr " Corsaire cuirassé"
 
 #. [unit_type]: id=Iron Raider, race=ship
 #: data/core/units/boats/Raider_Iron.cfg:26
+#, fuzzy
 msgid ""
 "While Carracks and Cogs rely on impressive sails to harness the power of the "
 "wind, galleys and raiders are propelled by muscle-power of the crew manning "
@@ -1917,15 +1936,29 @@ msgid ""
 "also make the vessel less vulnerable to the whims of weather and the "
 "predations of pirates."
 msgstr ""
+"Là où les caraques et les cogues s’en remettent à leurs immenses voiles pour "
+"capter la puissance des vents, les galères et les navires corsaires avancent "
+"grâce à la seule force des bras de leurs rameurs. Certes, cela exige un "
+"équipage plus nombreux et limite quelque peu la vitesse ainsi que "
+"l’efficacité du transport. Pourtant, ces faiblesses apparentes rendent aussi "
+"le bâtiment moins soumis aux caprices des tempêtes et moins vulnérable "
+"auxforbans."
 
 #. [unit_type]: id=Iron Raider, race=ship
 #: data/core/units/boats/Raider_Iron.cfg:28
+#, fuzzy
 msgid ""
 "Iron Raiders are veteran Coastal Raiders that have been hardened to become "
 "tougher targets and harder hitters. They are often used as front-line "
 "escorts of slower cargo ships in rivers and coasts, where their heavy iron "
 "bow allows them to ram foes without fear of self-inflicted damage."
 msgstr ""
+"Les Corsaires cuirassés sont des corsaires vétérans, aguerris par "
+"d’innombrables combats pour devenir des adversaires endurcis et redoutables. "
+"On les emploie souvent comme escorte de première ligne pour des navires "
+"marchands plus lents, le long des fleuves et des côtes. Leur lourde proue "
+"ferrée leur permet d’éperonner leurs ennemis sans craindre d’endommager leur "
+"propre bâtiment."
 
 #. [unit_type]: id=Skiff, race=ship
 #: data/core/units/boats/Skiff.cfg:5
@@ -3062,8 +3095,9 @@ msgstr "torche"
 
 #. [attack]: type=pierce
 #: data/core/units/dunefolk/Marauder.cfg:71
+#, fuzzy
 msgid "rope dart"
-msgstr ""
+msgstr "javelot à corde"
 
 #. [unit_type]: id=Dune Paragon, race=dunefolk
 #: data/core/units/dunefolk/Paragon.cfg:8
@@ -3162,8 +3196,9 @@ msgstr ""
 
 #. [attack]: type=pierce
 #: data/core/units/dunefolk/Raider.cfg:68
+#, fuzzy
 msgid "dart"
-msgstr ""
+msgstr "fléchette"
 
 #. [unit_type]: id=Dune Rider, race=dunefolk
 #: data/core/units/dunefolk/Rider.cfg:8
@@ -3754,6 +3789,7 @@ msgstr "Monteur de vouivre"
 
 #. [unit_type]: id=Wyvern Rider, race=monster
 #: data/core/units/dunefolk/Wyvern_Rider.cfg:17
+#, fuzzy
 msgid ""
 "Although generally peaceful, wyverns can easily become fierce and angry "
 "beasts when provoked. When truly enraged they can even tear apart "
@@ -3766,6 +3802,19 @@ msgid ""
 "usually use their knowledge for warfare, they can be threatening warriors "
 "when defending their homes."
 msgstr ""
+"Bien que généralement paisibles, les vouivres peuvent rapidement devenir des "
+"bêtes féroces et imprévisibles quand elles sont provoquées. Lorsqu’elles "
+"sont véritablement furieuses, elles peuvent déchiqueter des guerriers "
+"expérimentés avec une facilité déconcertante. La plupart des voyageurs "
+"fuient ou les affrontent avec crainte face à leur gabarit imposant, "
+"toutefois quelques-uns parviennent à apprivoiser ces créatures sauvages. Ces "
+"chevaucheur des dunes passent des années, voire des décennies, à tisser un "
+"lien avec elles, gagnant peu à peu leur confiance jusqu’à atteindre une "
+"véritable maîtrise des cieux. Les plus expérimentés de ces monteurs de "
+"vouivres comptent parmi les voyageurs les plus respectés et les plus "
+"illustres de ces terres. Bien qu’ils n’utilisent généralement pas leurs "
+"connaissances à des fins guerrières, ils deviennent des adversaires "
+"redoutables lorsqu’il s’agit de défendre leur foyer."
 
 #. [unit_type]: id=Dwarvish Arcanister, race=dwarf
 #: data/core/units/dwarves/Arcanister.cfg:4
@@ -4294,8 +4343,9 @@ msgstr ""
 #. [attack]: type=impact
 #. in game mechanics an upgrade of the Shaman’s slowing “entangle”, but in lore has the different magic style of the Enchantress’s unit description
 #: data/core/units/elves/Enchantress.cfg:36 data/core/units/elves/Sylph.cfg:38
+#, fuzzy
 msgid "ethereal web"
-msgstr ""
+msgstr "toile éthérée"
 
 #. [attack]: type=arcane
 #: data/core/units/elves/Enchantress.cfg:46
@@ -8163,6 +8213,7 @@ msgstr "Scarabé cornu"
 
 #. [unit_type]: id=Horned Scarab, race=monster
 #: data/core/units/monsters/Horned_Scarab.cfg:20
+#, fuzzy
 msgid ""
 "What creatures manage to eke out a living in the inhospitable wastes find "
 "themselves inviolably changed. Rugged, well-armored, and known to grow to "
@@ -8172,6 +8223,15 @@ msgid ""
 "insects will defend themselves with great ferocity, and few men alive would "
 "fain to face their penetrating barbs."
 msgstr ""
+"Les créatures qui parviennent à survivre dans les terres désolées et "
+"inhospitalières s’en trouvent profondément transformées. Robuste, lourdement "
+"protégé par une carapace, et connu pour atteindre des tailles considérables, "
+"le scarabée cornu n’en demeure pas moins aussi agile sur les sables mouvants "
+"que ses cousins des régions plus clémentes le sont dans les airs. Les "
+"voyageurs solitaires doivent particulièrement se méfier de ses cornes "
+"épineuses. Bien que de nature placide, cet insecte se défend avec une grande "
+"férocité, et peu d’hommes vivants oseraient affronter de près ses dards "
+"perçants."
 
 #. [attack]: type=pierce
 #: data/core/units/monsters/Horned_Scarab.cfg:48
@@ -8750,6 +8810,7 @@ msgstr "Vouivre sauvage"
 
 #. [unit_type]: id=Wild Wyvern, race=monster
 #: data/core/units/monsters/Wild_Wyvern.cfg:45
+#, fuzzy
 msgid ""
 "Wyverns are large reptiles that resemble dragons, but are not the "
 "intelligent, magical creatures. However, the fact that they are just wild "
@@ -8763,15 +8824,16 @@ msgid ""
 "inhabit."
 msgstr ""
 "Les vouivres sont de grands reptiles, semblables à des dragons, relativement "
-"peu intelligentes et sans nature magique. Leur caractère sauvage ne doit pas "
-"inciter les voyageurs à baisser la garde car elles sont rapides et féroces "
-"si elles se sentent menacées ou affamées.\n"
+"peu intelligents et dépourvus de nature magique. Leur caractère sauvage ne "
+"doit toutefois pas inciter les voyageurs à baisser leur garde : elles sont "
+"rapides et féroces lorsqu’elles se sentent menacées ou affamées.\n"
 "\n"
 "Les vouivres sont des créatures sociales, voyageant souvent en couple ou en "
-"petit groupe. Leurs habitudes de chasse et alimentaires sont mal comprises "
-"car elles peuvent coopérer avec des espèces inférieures qui peuvent paraître "
-"comme des proies potentielles. Ce comportement assez étonnant pourrait être "
-"une adaptation aux rudes déserts qu'elles occupent."
+"petits groupes. Leurs habitudes de chasse et leur régime alimentaire restent "
+"mal compris, car elles peuvent coopérer avec des animaux plus petits, qui "
+"pourraient pourtant être perçus comme des proies potentielles. Ce "
+"comportement assez surprenant pourrait constituer une adaptation aux "
+"environnements désertiques hostiles dans lesquels elles vivent."
 
 #. [unit_type]: id=Wolf, race=wolf
 #: data/core/units/monsters/Wolf.cfg:4
@@ -8982,6 +9044,7 @@ msgstr "Bouclier naga"
 
 #. [unit_type]: id=Naga Shield Guard, race=naga
 #: data/core/units/nagas/Guard_Shield.cfg:21
+#, fuzzy
 msgid ""
 "The veteran naga guards have learnt a unique fighting style, different from "
 "the heavy infantry of other races. By combining the inertia of a heavy mace "
@@ -8994,6 +9057,18 @@ msgid ""
 "absorbing some of the damage. Though their small shields do little against "
 "ranged attacks, this tactic nevertheless makes them sturdy fighters in melee."
 msgstr ""
+"Les gardes nagas vétérans ont développé un style de combat unique, différent "
+"de celui de l’infanterie lourde des autres peuples. En combinant l’inertie "
+"d’une lourde masse avec la souplesse de leur corps, ils peuvent enchaîner "
+"une série de coups rapides et dévastateurs.\n"
+"\n"
+"Cette technique peut se révéler puissante lorsqu’ils disposent du temps "
+"nécessaire pour se préparer, mais elle est difficile à employer dans "
+"l’urgence. Sur le plan défensif, les boucliers nagas utilisent plutôt leur "
+"flexibilité naturelle pour se protéger et accompagner le mouvement de "
+"l’impact, absorbant ainsi une partie des dégâts. Bien que leurs petits "
+"boucliers soient peu efficaces contre les attaques à distance, cette "
+"tactique en fait néanmoins des combattants solides au corps à corps."
 
 #. [unit_type]: id=Naga Myrmidon, race=naga, gender=male,female
 #: data/core/units/nagas/Myrmidon.cfg:4
@@ -9156,8 +9231,9 @@ msgstr ""
 
 #. [attack]: type=pierce
 #: data/core/units/nagas/Sicarius.cfg:38
+#, fuzzy
 msgid "trishula"
-msgstr ""
+msgstr "trident sacré"
 
 #. [female]: gender=female
 #: data/core/units/nagas/Sicarius.cfg:92
@@ -11048,6 +11124,7 @@ msgstr "Pousse de wose"
 
 #. [unit_type]: id=Wose Sapling, race=wose
 #: data/core/units/wose/Wose_Sapling.cfg:18
+#, fuzzy
 msgid ""
 "The smallest of woses are called Saplings, and have not yet gained the great "
 "strength of their elder kin. While little is known about the life-cycle of "
@@ -11058,6 +11135,16 @@ msgid ""
 "Like most woses, Saplings rarely seek out conflict, although strikes from "
 "their thrashing branches can cause some damage."
 msgstr ""
+"Les plus petits des Woses sont appelés « jeunes pousses» et n’ont pas encore "
+"acquis la grande force de leurs aînés. Bien que l’on sache peu de choses sur "
+"le cycle de vie de ces créatures mystérieuses, beaucoup supposent qu’elles "
+"grandissent à un rythme beaucoup plus lent que les véritables arbres. Si "
+"cela est vrai, même leurs soi-disant juvéniles pourraient avoir plusieurs "
+"décennies.\n"
+"\n"
+"Comme la plupart des Woses, les jeunes pousses recherchent rarement le "
+"conflit, bien que des coups portés par leurs branches puissent causer des "
+"dégâts significatifs en fouettant."
 
 #. [unit_type]: id=Wose Shaman, race=wose
 #: data/core/units/wose/Wose_Shaman.cfg:4
